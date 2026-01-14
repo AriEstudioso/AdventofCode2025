@@ -78,5 +78,17 @@ Ejercicio 5.2:
 -Comprobamos que la ID se encuentra dentro de los rangos.
 -Se imprime cuantos IDs estan dentro de algun rango.
 
+Ejercicio 6:
+-Creamos las dimensiones de las filas y columnas, el indice de las columnas c y el acumulador final.
+-Se recorre todas las columnas de izquierda a derecha. Si alguna columna tiene espacios en blanco se salta. Esto permite detectar bloques separados por espacios.
+-Gracias a estas columnas con espacios podemos detectar los bloques start = primera columna, end = ultima columna.
+-Luego una vez tenemos cada bloque separado los extraemos ignorando espacios y se guarda su operador + o *.
+-Hacemos el calculo a cada bloque segun su operador.
+-Se almacena el total y se imprime.
+
+Ejercicio 6.2:
+Esta vez los numeros se leen de arriba a abajo y el ultimo caracter del bloque es el operador.
+Antes se sumaban o multiplicaban todos los numeros. Ahora funciona como una suma o multiplicaion de arriba a abajo de dos en dos
+
 
 
